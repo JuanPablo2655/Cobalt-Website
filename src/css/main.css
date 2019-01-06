@@ -28,4 +28,16 @@ header h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
 }
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.election-head {
+  font: 1em sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+  margin-right: 40px;
+}
 /*# sourceMappingURL=main.css.map */
