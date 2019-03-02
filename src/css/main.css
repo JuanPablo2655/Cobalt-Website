@@ -38,6 +38,14 @@ header h1 {
   font-weight: bold;
   font-size: 20px;
   display: inline;
-  margin-right: 40px;
+  margin-right: 10px;
+  margin-left: 110px;
+}
+
+.election-body {
+  font: 1em sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 110px;
 }
 /*# sourceMappingURL=main.css.map */
