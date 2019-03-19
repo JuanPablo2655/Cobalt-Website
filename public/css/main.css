@@ -30,10 +30,6 @@ header h1 {
   font-size: 20px;
 }
 
-.active {
-  border-bottom: 2px solid #fff;
-}
-
 main p {
   color: #fff;
   font: 1em sans-serif;
