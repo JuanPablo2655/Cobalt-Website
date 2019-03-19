@@ -1,6 +1,41 @@
 body, html {
-  padding: 0;
   margin: 0;
-  background-color: aqua;
+  padding: 0;
+  background-color: #36393f;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.navbar {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav-link a, .nav-link a:visited {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.active {
+  border-bottom: 2px solid #fff;
+}
+
+main p {
+  color: #fff;
+  font: 1em sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
