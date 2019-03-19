@@ -33,5 +33,7 @@ header h1 {
 main p {
   color: #fff;
   font: 1em sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 /*# sourceMappingURL=main.css.map */
