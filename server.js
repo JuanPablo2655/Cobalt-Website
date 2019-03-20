@@ -10,6 +10,15 @@ app.get('/', (req, res) => {
     res.render('pages/index');
 });
 
+app.get('/nationstates', (req, res) => {
+    res.redirect('http://www.nationstates.net/region=cobalt_network');
+});
+
+app.get('/discord', (req, res) => {
+    let code = config.invite
+    res.redirect(`http://discordapp.com/invite/${code}`);
+});
+
 app.get('/resources', (req, res) => {
     res.render('pages/resources');
 });
@@ -24,4 +33,4 @@ app.get('/login', (req, res) => {
 
 app.listen(port, () => {
     console.log(`cobaltia is listening on port ${port}`);
-})
+});
