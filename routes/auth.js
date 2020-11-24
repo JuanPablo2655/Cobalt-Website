@@ -7,7 +7,11 @@ router.get('/discord/redirect', passport.authenticate('discord'), (req, res) => 
 });
 
 router.get('/', (req, res) => { //url.com/api/auth/
-    res.send(req.user); //send the user data if logged in
+    if (req.user) {
+        res.send(req.user) //send the user data if logged in
+    } else {
+        res.sendStatus(401).send({message: 'Unauthorized'}) //else it'll send 'Unauthorized'
+    }
 })
 
 module.exports = router;
