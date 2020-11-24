@@ -1,6 +1,0 @@
-{
-    "port": "3000",
-    "dashboardClientID": "359869454257094668",
-    "dashboardClientSecret": "G3h3t-hJ-NtRLhSOKDtGsOhjAckfrzIE",
-    "dasboardcallbackURL": "/api/auth/discord/redirect"
-}
