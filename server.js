@@ -13,7 +13,7 @@ mongoose.init();
 
 //create a cookie every time a user logins in
 app.use( session({
-    secret: 'secret',
+    secret: config.secret,
     cookie: {maxAge: 10800000}, //3 hours in milliseconds
     resave: false,
     saveUninitialized: false,
